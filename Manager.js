@@ -20,7 +20,6 @@ const Manager = (props) => {
   const [arr, setarr] = useState([...data]);
   const [isshow, setisshow] = useState(false);
   const [editID, seteditID] = useState(null);
-  let NamefromAbout = "hung trinh";
   const [name, setname] = useState("");
   const [mota, setmota] = useState("");
   const [linkanh, setlinkanh] = useState("");
